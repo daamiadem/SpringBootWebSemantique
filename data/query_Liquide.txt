@@ -1,0 +1,18 @@
+PREFIX ns: <http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+
+
+
+
+	
+	SELECT ?Liquide ?calorie
+	WHERE{
+	?Liquide rdf:type ns:Liquide ; 
+	ns:calorie ?calorie;	
+		
+		
+	
+	
+	}
